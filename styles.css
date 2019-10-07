@@ -1,1 +1,42 @@
 /* CSS CODE HERE */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+img{
+    vertical-align: middle;
+}
+#navbarlist{
+    width: 100vw;
+    height: 40px;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    padding-top: 30px;  
+    text-align: center;
+}
+#uberlogo{
+    height: 16px;
+    padding-bottom: 5px;
+}
+#drivewithubersection{
+    height: 1000px;
+    width: 100vw;
+    padding-left: 300px;
+}
+#drivewithuberpicture{
+    background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_north,w_2560,h_1734/v1558483958/assets/3a/b709e3-54eb-4f13-8618-2bf08addf5dd/original/earn_2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1280px;
+    height: 700px;
+    
+}
