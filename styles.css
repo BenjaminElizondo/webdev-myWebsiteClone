@@ -125,7 +125,7 @@ img{
     background-repeat: no-repeat;
     bottom: 25px;
 }
-.secondnavbartextpadding{
+.secondnavbartext{
     padding-top: 90px;
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
@@ -134,8 +134,8 @@ img{
 /* BOX UNDER SECOND NAV BAR */
 
 #boxundersecondnavbar{
-    height: 506px;
-    max-width: 396px;
+    height: 610px;
+    width: 490px;
     left: 130px;
     top: 70px;
     background-color: white;
@@ -143,6 +143,12 @@ img{
     justify-self: center;
     text-align: center;
     border-top: 1px solid #EEEEEE;
+}
+#drivewithuber{
+padding-top: 65px;
+padding-right: 40px;
+font-size: 48px;
+font-family: "Open Sans", sans-serif;
 }
 
 
