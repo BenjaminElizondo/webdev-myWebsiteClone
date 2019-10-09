@@ -4,6 +4,7 @@
     padding: 0px;
     overflow: hidden;
 }
+/* FIRST NAV BAR */
 ul{
     list-style-type: none;
 }
@@ -28,6 +29,9 @@ img{
     height: 16px;
     padding-bottom: 5px;
 }
+
+/* DRIVE WITH UBER SECTION */
+
 #drivewithubersection{
     height: 1000px;
     width: 100%;
@@ -45,6 +49,9 @@ img{
     width: 100%;
     padding-left: 300px;
 }
+
+/* SECOND NAV BAR*/
+
 #secondnavbarlist{
     height: 120px;
     max-width: 1032px;
@@ -56,3 +63,86 @@ img{
     text-align: center;
     opacity: .98;
 }
+.uberfeaturesbox{
+    height: 120px;
+    width: 12.5%;
+    position: relative;
+    float: left;
+}
+#earn{
+    background-image: url(https://www.uber-assets.com/image/upload/v1558389718/assets/8e/33c8c0-f7e9-467c-924b-c70232943a47/original/Earn-filled.svg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    bottom: 25px;
+}
+#ride{
+    background-image: url(https://www.uber-assets.com/image/upload/v1542252540/assets/6d/87af17-3970-4d01-8936-1b0ba102ea6e/original/car-front-outlined.svg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    bottom: 25px;
+}
+#eat{
+    background-image: url(https://www.uber-assets.com/image/upload/v1542256606/assets/7d/5a4852-3b2a-4466-96de-602dfb62dc1b/original/restaurant-outlined.svg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    bottom: 25px;
+}
+#freight{
+    background-image: url(https://www.uber-assets.com/image/upload/v1542257500/assets/14/aa5c19-33cc-4556-a8e3-8228253af608/original/truck-outlined.svg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    bottom: 25px;
+}
+#business{
+    background-image: url(https://www.uber-assets.com/image/upload/v1542252354/assets/e3/24ab47-806e-493b-9df8-748763238cc8/original/briefcase-outlined.svg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    bottom: 25px;
+}
+#work{
+    background-image: url(https://www.uber-assets.com/image/upload/v1542255414/assets/5e/37af00-8b0a-48a2-adb3-fe19406d2d74/original/job-busser-outlined.svg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    bottom: 25px;
+}
+#bike{
+    background-image: url(https://www.uber-assets.com/image/upload/v1542252195/assets/69/e1d56d-4b83-4878-aab5-c37ea291e188/original/bike-outlined.svg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    bottom: 25px;
+}
+#fly{
+    background-image: url(https://www.uber-assets.com/image/upload/v1542251780/assets/ae/deba86-2d9b-47fd-a7c3-9cd2184992a1/original/airplane-depart-outlined.svg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    bottom: 25px;
+}
+.secondnavbartextpadding{
+    padding-top: 90px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* BOX UNDER SECOND NAV BAR */
+
+#boxundersecondnavbar{
+    height: 506px;
+    max-width: 396px;
+    left: 130px;
+    top: 70px;
+    background-color: white;
+    position: relative;
+    justify-self: center;
+    text-align: center;
+    border-top: 1px solid #EEEEEE;
+}
+
+
