@@ -186,4 +186,18 @@ img{
     background-repeat: no-repeat;
     max-width: 1280px;
     height: 600px;
+    position: relative;
+}
+#settingmotiontext{
+    font-family: "Open Sans",  sans-serif;
+    font-size: 48px;
+    padding-left: 130px;
+    padding-top: 60px;
+}
+#citiestext{
+    padding-left: 135px;
+    padding-top: 15px;
+    font-size: 16px;
+    text-decoration: underline;
+    font-family: Arial;
 }
