@@ -176,7 +176,7 @@ img{
     text-decoration: underline;
 }
 #motionsection{
-    height: 700px;
+    height: 600px;
     width: 100%;
     padding-left: 300px;
 }
@@ -201,3 +201,19 @@ img{
     text-decoration: underline;
     font-family: Arial;
 }
+#worldsection{
+    height: 700px;
+}
+#worldvideo{
+    padding-left: 300px;
+    position: relative;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    padding-top: 140px;
+    padding-left: 130px;
+    color: white;
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+  }
