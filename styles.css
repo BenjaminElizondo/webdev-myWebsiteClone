@@ -217,3 +217,95 @@ img{
     font-size: 32px;
     font-family: "Open Sans", sans-serif;
   }
+#businessection{
+    height: 500px;
+    width: 100%;
+    padding-left: 440px;
+    padding-top: 80px;
+    font-family: "Open Sans", sans-serif;
+}
+#transportationtext{
+    padding-top: 15px;
+    font-family: "Arial";
+}
+.businessbox{
+    height: 400px;
+    width: 100vw;
+    position: relative;
+    float: left;
+    padding-top: 75px;
+    padding-left: 40px;
+    
+}
+#travel{
+    background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_317,h_212/v1565392588/assets/88/3256b3-ed3b-4c43-822d-0a2de6ebc11d/original/business_travel_spot_edit.svg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 317.313px;
+    height: 211.531px;
+}
+#vouchers{
+    background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_317,h_212/v1565392632/assets/d1/ce13f2-f6b1-4d87-ac91-43d8e4139109/original/vouchers_spot_edit.svg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 317.313px;
+    height: 211.531px;
+}
+#rides{
+    background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_317,h_212/v1565392678/assets/f5/6fdbe0-43c1-4b3c-bf9f-d19a47fd541c/original/courtesy_spot_edit.svg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 317.313px;
+    height: 211.531px;
+}
+.businesstext{
+    padding-top: 190px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+.businesstextv2{
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+}
+.businesstextv3{
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: "Arial";
+    text-decoration: underline;
+}
+#operatingsystemsection{
+    height: 600px;
+    width: 100%;
+    padding-left: 440px;
+    padding-top: 120px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 auto;
+}
+#operatingtext{
+    padding-top: 15px;
+    font-family: "Arial";
+}
+#learnmorev2{
+    background-color: white;
+    padding-top: 20px;
+}
+#learnmorebutton{
+    font-size: 18px;
+    background-color: #000000;
+    color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    line-height: 28px;
+    border-style: none;
+}
+#city{
+    width: 495.969px;
+    height: 330.641px;
+}
