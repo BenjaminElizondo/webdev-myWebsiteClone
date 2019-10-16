@@ -235,7 +235,6 @@ img{
     float: left;
     padding-top: 75px;
     padding-left: 40px;
-    
 }
 #travel{
     background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_317,h_212/v1565392588/assets/88/3256b3-ed3b-4c43-822d-0a2de6ebc11d/original/business_travel_spot_edit.svg);
@@ -279,19 +278,22 @@ img{
     text-decoration: underline;
 }
 #operatingsystemsection{
-    height: 600px;
-    width: 100%;
+    height: 500px;
     padding-left: 440px;
     padding-top: 120px;
     font-family: "Open Sans", sans-serif;
-    margin: 0 auto;
+}
+.operatingcitybox{
+    height: 212px;
+    max-width: 50%;
+    position: relative;
+    float: left;
 }
 #operatingtext{
     padding-top: 15px;
     font-family: "Arial";
 }
 #learnmorev2{
-    background-color: white;
     padding-top: 20px;
 }
 #learnmorebutton{
@@ -306,6 +308,67 @@ img{
     border-style: none;
 }
 #city{
+    height: 330.641px;
+    width: 495.969px;
+    background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1317,h_952/v1569443324/assets/6b/5a6395-96c9-42f2-9196-b328ab81b960/original/UberIM_20243-medium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 100px;
+    bottom: 60px;
+}
+#commitmentsection{
+    height: 400px;
+    padding-left: 440px;
+    font-family: "Open Sans", sans-serif;
+}
+.commitmentbox{
+    height: 212px;
+    max-width: 50%;
+    position: relative;
+    float: left;
+}
+#commitmentpicture{
     width: 495.969px;
     height: 330.641px;
+    background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_496,h_331/v1558736931/assets/e5/fb1f43-f1bf-4dd2-b62d-6015c758d2ee/original/Safety_ilo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 100px;
+    bottom: 60px;
+}
+#commitmenttext{
+    padding-top: 15px;
+}
+#commitmenttextv2{
+    padding-top: 20px;
+}
+#extrassection{
+    height: 300px;
+    padding-left: 440px;
+    padding-bottom: 120px;
+    font-family: "Open Sans", sans-serif;
+}
+.extrasbox{
+    height: 300px;
+    width: 25%;
+    position: relative;
+    float: left;
+    padding-top: 45px;
+}
+#aboutus{
+    background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542256135/assets/dd/c53d7b-8921-4dc7-93f4-45fb59f4ffb9/original/person-multiple-outlined.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+#newsroom{
+    background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542254244/assets/eb/68c631-5041-4eeb-9114-80048a326782/original/document-outlined.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+#globalcitizenship{
+    background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542255370/assets/64/58118a-0ece-4f80-93ee-8041b53593d5/original/home-outlined.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
 }
