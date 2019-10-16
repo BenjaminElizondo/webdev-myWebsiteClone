@@ -14,7 +14,7 @@ img{
     vertical-align: middle;
 }
 #navbarlist{
-    width: 100%;
+    width: 100vw;
     height: 40px;
     color: white;
     background-color: black;
@@ -230,7 +230,7 @@ img{
 }
 .businessbox{
     height: 400px;
-    width: 100vw;
+    width: 100%;
     position: relative;
     float: left;
     padding-top: 75px;
@@ -347,7 +347,6 @@ img{
 #extrassection{
     height: 300px;
     padding-left: 440px;
-    padding-bottom: 120px;
     font-family: "Open Sans", sans-serif;
 }
 .extrasbox{
@@ -371,4 +370,69 @@ img{
     background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542255370/assets/64/58118a-0ece-4f80-93ee-8041b53593d5/original/home-outlined.svg);
     background-size: auto;
     background-repeat: no-repeat;
+}
+#finalsignupsection{
+    height: 400px;
+    width: 1234px;
+    padding-left: 440px;
+    font-family: "Open Sans", sans-serif;
+}
+.finalsignupbox{
+    height: 300px;
+    width: 50%;
+    position: relative;
+    float: left;
+    padding-top: 45px;
+}
+#arrow{
+   padding-left: 120px;
+   height: 46px;
+   width: 46px;
+}
+.bordersection{
+    padding-top: 50px;
+    width: 415px;
+    border-bottom: 1px solid black;
+}
+#footersection{
+    height: 545px;
+    background-color: black;
+    width: 100%;
+    padding-left: 440px;
+    font-family: "Open Sans", sans-serif;
+}
+.footerbox{
+    height: 425px;
+    width: 25%;
+    position: relative;
+    float: left;
+    color: white;
+    padding-top: 120px;
+}
+.footertext{
+    padding-top: 25px;
+}
+#footersectionv2{
+    height: 169px;
+    background-color: black;
+    width: 100%;
+    padding-left: 440px;
+    font-family: "Open Sans", sans-serif;
+}
+#hrfooter{
+    padding-left: 440px;
+    color: #4D4D4D;
+    width: 730px;
+}
+#navbarlistv2{
+    width: 100vw;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    padding-top: 30px;  
+}
+.navbarpadding{
+    padding-left: 20px;
 }
