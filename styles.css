@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 /* FIRST NAV BAR */
 ul{
@@ -206,7 +207,7 @@ img{
 }
 #worldvideo{
     padding-left: 300px;
-    position: relative;
+    position: absolute;
 }
 .centered {
     position: absolute;
@@ -218,7 +219,7 @@ img{
     font-family: "Open Sans", sans-serif;
   }
 #businessection{
-    height: 500px;
+    height: 550px;
     width: 100%;
     padding-left: 440px;
     padding-top: 80px;
@@ -230,7 +231,7 @@ img{
 }
 .businessbox{
     height: 400px;
-    width: 100%;
+    width: 18%;
     position: relative;
     float: left;
     padding-top: 75px;
@@ -242,7 +243,8 @@ img{
     background-size: auto;
     background-repeat: no-repeat;
     width: 317.313px;
-    height: 211.531px;
+    bottom: 105px;
+    
 }
 #vouchers{
     background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_317,h_212/v1565392632/assets/d1/ce13f2-f6b1-4d87-ac91-43d8e4139109/original/vouchers_spot_edit.svg);
@@ -250,32 +252,36 @@ img{
     background-size: auto;
     background-repeat: no-repeat;
     width: 317.313px;
-    height: 211.531px;
+    bottom: 105px;
+  
 }
 #rides{
     background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_317,h_212/v1565392678/assets/f5/6fdbe0-43c1-4b3c-bf9f-d19a47fd541c/original/courtesy_spot_edit.svg);
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-    width: 317.313px;
-    height: 211.531px;
+    bottom: 105px;
+    
 }
 .businesstext{
-    padding-top: 190px;
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
+    position: absolute;
+    padding-top: 280px;
 }
 .businesstextv2{
-    padding-top: 20px;
+    padding-top: 315px;
     font-size: 16px;
     font-family: "Arial";
     color: rgb(51, 51, 51);
+    position: absolute;
 }
 .businesstextv3{
-    padding-top: 20px;
+    padding-top: 380px;
     font-size: 16px;
     font-family: "Arial";
     text-decoration: underline;
+    position: absolute;
 }
 #operatingsystemsection{
     height: 500px;
@@ -345,7 +351,7 @@ img{
     padding-top: 20px;
 }
 #extrassection{
-    height: 300px;
+    
     padding-left: 440px;
     font-family: "Open Sans", sans-serif;
 }
