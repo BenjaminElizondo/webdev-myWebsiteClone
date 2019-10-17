@@ -1,10 +1,12 @@
 /* CSS CODE HERE */
+
 *{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
 }
 /* FIRST NAV BAR */
+
 ul{
     list-style-type: none;
 }
@@ -29,15 +31,28 @@ img{
     height: 16px;
     padding-bottom: 5px;
 }
+#languageandverification{
+    padding-left: 25px;
+    padding-bottom: 2px;
+}
+#firstnavbarsignup{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-style: none;
+}
 
 /* DRIVE WITH UBER SECTION */
 
 #drivewithubersection{
-    height: 700px;
     width: 100%;
     padding-left: 300px;
 }
-
 #drivewithuberpicture{
     background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_north,w_1280,h_726/v1558483958/assets/3a/b709e3-54eb-4f13-8618-2bf08addf5dd/original/earn_2x.jpg);
     background-size: cover;
@@ -55,7 +70,6 @@ img{
     top: 65px;
     background-color: white;
     position: relative;
-    justify-self: center;
     text-align: center;
     opacity: .98;
 }
@@ -126,6 +140,12 @@ img{
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
 }
+.navbarpadding{
+    padding-left: 20px;
+}
+.navbarpaddingv1{
+    padding-left: 540px;
+}
 
 /* BOX UNDER SECOND NAV BAR */
 
@@ -136,7 +156,6 @@ img{
     top: 60px;
     background-color: white;
     position: relative;
-    justify-self: center;
     border-top: 1px solid #EEEEEE;
 }
 #drivewithuber{
@@ -176,6 +195,9 @@ img{
     padding-top: 20px;
     text-decoration: underline;
 }
+
+/* MOTION SECTION */
+
 #motionsection{
     height: 600px;
     width: 100%;
@@ -202,6 +224,9 @@ img{
     text-decoration: underline;
     font-family: Arial;
 }
+
+/* VIDEO SECTION */
+
 #worldsection{
     height: 700px;
 }
@@ -209,6 +234,25 @@ img{
     padding-left: 300px;
     position: absolute;
 }
+#playvideo{
+    left: 300px;
+    padding-top: 190px;
+     
+ }
+ #playvideotext{
+     padding-top: 200px;
+     padding-left: 190px;
+     font-family: "Open Sans", sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+ }
+ #playvideotextv2{
+     padding-top: 270px;
+     padding-left: 130px;
+     font-family: "Open Sans", sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+ }
 .centered {
     position: absolute;
     top: 50%;
@@ -218,6 +262,9 @@ img{
     font-size: 32px;
     font-family: "Open Sans", sans-serif;
   }
+
+/* BUSINESS SECTION */
+
 #businessection{
     height: 550px;
     width: 100%;
@@ -244,7 +291,6 @@ img{
     background-repeat: no-repeat;
     width: 317.313px;
     bottom: 105px;
-    
 }
 #vouchers{
     background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_317,h_212/v1565392632/assets/d1/ce13f2-f6b1-4d87-ac91-43d8e4139109/original/vouchers_spot_edit.svg);
@@ -253,15 +299,14 @@ img{
     background-repeat: no-repeat;
     width: 317.313px;
     bottom: 105px;
-  
 }
 #rides{
     background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_317,h_212/v1565392678/assets/f5/6fdbe0-43c1-4b3c-bf9f-d19a47fd541c/original/courtesy_spot_edit.svg);
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
+    width: 317.313px;
     bottom: 105px;
-    
 }
 .businesstext{
     font-size: 18px;
@@ -283,6 +328,9 @@ img{
     text-decoration: underline;
     position: absolute;
 }
+
+/* OPERATING SECTION */
+
 #operatingsystemsection{
     height: 500px;
     padding-left: 440px;
@@ -323,6 +371,9 @@ img{
     left: 100px;
     bottom: 60px;
 }
+
+/* COMMITMENT SECTION */
+
 #commitmentsection{
     height: 400px;
     padding-left: 440px;
@@ -350,6 +401,9 @@ img{
 #commitmenttextv2{
     padding-top: 20px;
 }
+
+/* EXTRAS SECTION */
+
 #extrassection{
     padding-left: 440px;
     font-family: "Open Sans", sans-serif;
@@ -379,6 +433,9 @@ img{
 .extrastext{
     padding-top: 10px;
 }
+
+/* FINAL SECTION */
+
 #finalsignupsection{
     height: 400px;
     width: 1234px;
@@ -402,6 +459,9 @@ img{
     width: 415px;
     border-bottom: 1px solid black;
 }
+
+/* FOOTER SECTION */
+
 #footersection{
     height: 545px;
     background-color: black;
@@ -440,12 +500,6 @@ img{
     font-weight: bold;
     padding-top: 30px;  
 }
-.navbarpadding{
-    padding-left: 20px;
-}
-.navbarpaddingv1{
-    padding-left: 540px;
-}
 .secondnavbarpadding{
     padding-left: 150px;
 }
@@ -455,42 +509,8 @@ img{
 #googleplaypadding{
     padding-left: 25px;
 }
-#firstnavbarsignup{
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    background-color: white;
-    color: black;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 9px;
-    padding-top: 9px;
-    border-style: none;
-}
 #footericons{
     padding-left: 260px;
     width: 280px;
     height: 100px;
-}
-#languageandverification{
-    padding-left: 25px;
-    padding-bottom: 2px;
-}
-#playvideo{
-   left: 300px;
-   padding-top: 190px;
-    
-}
-#playvideotext{
-    padding-top: 200px;
-    padding-left: 190px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-}
-#playvideotextv2{
-    padding-top: 270px;
-    padding-left: 130px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-weight: bold;
 }
